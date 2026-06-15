@@ -55,7 +55,7 @@ const SkyPlaneSection = () => {
       const windowHeight = window.innerHeight;
 
      const value = (1 - rect.top / windowHeight) * 0.45;
-const clamped = Math.min(Math.max(value, 0), 1);
+     const clamped = Math.min(Math.max(value, 0), 0.55);
 
       setProgress(clamped);
     };

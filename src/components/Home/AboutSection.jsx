@@ -50,14 +50,14 @@ const AboutSection = () => {
 
              {/* Background Image */}
   <div
-    className="absolute inset-0  bg-center bg-no-repeat "
+    className="absolute inset-0  bg-center bg-no-repeat z-0"
     style={{
       backgroundImage: `url(${bgPattern})`,
     }}
   />
            
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            <div className=" relative z-10 grid grid-cols-1 sm:grid-cols-2 gap-5">
               
               {/* LEFT COLUMN */}
               <div className="space-y-5">

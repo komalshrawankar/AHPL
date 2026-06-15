@@ -72,7 +72,7 @@ const WhyChooseSection = () => {
             <img
               src={containerImg}
               alt=""
-              className="absolute top-[-70px] right-0 w-[180px] sm:w-[220px] lg:w-[280px] z-20"
+              className="absolute top-[-70px] right-0 left-[350px] w-[180px] sm:w-[220px] lg:w-[280px] z-20"
             />
 
             <div className="grid grid-cols-[1fr_200px] gap-4 items-end">
