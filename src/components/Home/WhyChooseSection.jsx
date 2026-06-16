@@ -35,11 +35,7 @@ const WhyChooseSection = () => {
             </h2>
 
             <p className="mt-5 text-[#6D6D6D] text-[15px] leading-relaxed max-w-[500px]">
-              At AHPL, we go beyond buying and selling products. We build
-              long-term partnerships by delivering reliable sourcing, quality
-              assurance, transparent processes, and seamless international trade
-              solutions that help businesses grow confidently across global
-              markets.
+              At Ananta horizons pvt ltd, we go beyond buying and selling products. We build long-term partnerships by delivering reliable sourcing, quality assurance, transparent processes, and seamless international trade solutions that help businesses grow confidently across global markets.
             </p>
 
             {/* FEATURES BOX */}
@@ -66,54 +62,43 @@ const WhyChooseSection = () => {
           </div>
 
           {/* RIGHT CONTENT */}
-          <div className="relative">
-            
-            {/* Hanging Container */}
-            <img
-              src={containerImg}
-              alt=""
-              className="absolute top-[-70px] right-0 left-[350px] w-[180px] sm:w-[220px] lg:w-[280px] z-20"
-            />
+         {/* RIGHT CONTENT */}
+<div className="relative mt-10 lg:mt-0">
+  {/* Hanging Container */}
+  <img
+    src={containerImg}
+    alt=""
+    className="hidden lg:block absolute top-[-70px] right-0 w-[280px] z-20"
+  />
 
-            <div className="grid grid-cols-[1fr_200px] gap-4 items-end">
-              
-              {/* LARGE IMAGE */}
-              <div
-                className="rounded-[22px] overflow-hidden h-[500px] bg-cover bg-center"
-                style={{
-                  backgroundImage: `url(${warehouseImg})`,
-                }}
-              />
+  <div className="grid grid-cols-1 sm:grid-cols-[1fr_200px] gap-4 items-end">
+    {/* LARGE IMAGE */}
+    <div
+      className="rounded-[22px] overflow-hidden h-[380px] sm:h-[500px] bg-cover bg-center"
+      style={{
+        backgroundImage: `url(${warehouseImg})`,
+      }}
+    />
 
-              {/* RIGHT COLUMN */}
-              <div className="flex flex-col justify-between h-[500px]">
-                
-                {/* Empty space for container */}
-                <div />
+    {/* RIGHT COLUMN */}
+    <div className="flex flex-col justify-end h-auto sm:h-[500px]">
+      {/* EXPERIENCE CARD */}
+      <div
+        className="relative rounded-[20px] overflow-hidden h-[150px] bg-cover bg-center"
+        style={{
+          backgroundImage: `url(${experienceImg})`,
+        }}
+      >
+        <div className="absolute inset-0 bg-[#10274A]/70" />
 
-                {/* EXPERIENCE CARD */}
-                <div
-                  className="relative rounded-[20px] overflow-hidden h-[150px] bg-cover bg-center"
-                  style={{
-                    backgroundImage: `url(${experienceImg})`,
-                  }}
-                >
-                  <div className="absolute inset-0 bg-[#10274A]/70" />
-
-                  <div className="absolute inset-0 flex flex-col justify-center px-5 text-white">
-                    <h3 className="text-[52px] font-bold leading-none">
-                      10+
-                    </h3>
-
-                    <p className="text-sm">
-                      Years of Experience
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
+        <div className="absolute inset-0 flex flex-col justify-center px-5 text-white">
+          <h3 className="text-[52px] font-bold leading-none">10+</h3>
+          <p className="text-sm">Years of Experience</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
         </div>
       </div>

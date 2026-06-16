@@ -14,7 +14,7 @@ const CertificationsSection = () => {
     <section className=" py-14 sm:py-16 lg:py-20 px-4">
       <div className="max-w-[1100px] mx-auto text-center">
         <span className="inline-block bg-[#25A0D4] text-white text-sm px-4 py-1.5 rounded-md mb-5">
-          Certifications
+        Certifications & Membership
         </span>
 
         <h2 className="text-[#1D355D] text-[32px] sm:text-[42px] lg:text-[48px] font-bold leading-tight">

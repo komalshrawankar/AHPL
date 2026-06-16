@@ -29,11 +29,7 @@ const HeroSection = () => {
           </h1>
 
           <p className="mt-4 max-w-[450px] text-[13px] sm:text-[15px] lg:text-[15px]  font-normal">
-            AHPL is a leading import-export company connecting businesses across
-            international markets through reliable sourcing, seamless logistics,
-            and world-class trade solutions. From agricultural commodities and
-            industrial materials to consumer products and customized sourcing, we
-            help businesses grow beyond borders.
+           Ananta horizons pvt ltd is a trusted export company providing reliable sourcing, seamless logistics, and global trade solutions to help businesses grow across international markets.
           </p>
 
           <a

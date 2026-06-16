@@ -28,11 +28,7 @@ const Footer = () => {
             </h3>
 
             <p className="text-[#333333] text-[15px] leading-[1.35] max-w-[320px]">
-              AHPL is a trusted import-export company dedicated to connecting
-              businesses across international markets through reliable
-              sourcing, quality products, efficient logistics, and seamless
-              trade solutions. We help businesses expand globally with
-              confidence and success.
+              Ananta horizons pvt ltd helps businesses grow globally with trusted export, sourcing, and logistics services.
             </p>
 
             <div className="flex items-center gap-2 mt-7">

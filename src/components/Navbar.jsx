@@ -10,7 +10,7 @@ const Navbar = ({ children }) => {
   const [open, setOpen] = useState(false);
   const [sticky, setSticky] = useState(false);
 
-  const navLinks = ["Home", "About Us", "Products", "Blog", "Contact Us"];
+  const navLinks = ["Home", "About Us", "Industries", "Blog", "Contact Us"];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -64,7 +64,7 @@ const Navbar = ({ children }) => {
               <img src={logo} alt="Logo" />
             </a>
 
-            <ul className="hidden lg:flex items-center gap-5 text-[#162c52] font-medium text-[16px] ms-5">
+            <ul className="hidden lg:flex items-center gap-5 text-[#162c52] font-medium text-[18px] ms-5">
               {navLinks.map((item, index) => (
                 <li key={index}>
                   <a href="#" className="hover:text-[#ff1f63] transition">

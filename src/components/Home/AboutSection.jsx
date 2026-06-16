@@ -25,17 +25,11 @@ const AboutSection = () => {
             </h2>
 
             <p className="text-[#707070] text-base leading-relaxed max-w-lg mb-8">
-              At AHPL, we simplify international trade by providing
-              comprehensive import and export solutions tailored to the needs
-              of modern businesses. With a strong global network of suppliers,
-              manufacturers, logistics partners, and buyers, we ensure
-              efficient and transparent trade operations from sourcing to
-              delivery.
+              At Ananta horizons pvt ltd, we simplify international trade by providing comprehensive export solutions tailored to the needs of modern businesses. With a strong global network of suppliers, manufacturers, logistics partners, and buyers, we ensure efficient and transparent trade operations from sourcing to delivery.
+
               <br />
               <br />
-              Whether you are looking to import quality products or expand your
-              business into international markets, AHPL serves as your trusted
-              partner for reliable and profitable trade.
+             Whether you are looking to expand your business into international markets, Ananta horizons pvt ltd serves as your trusted partner for reliable and profitable trade.
             </p>
 
            <div className="pb-5">
